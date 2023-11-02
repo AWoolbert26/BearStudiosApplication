@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;;
+    overflow: hidden;
+    transition: background-color 0.5s;
+    z-index: 1;
+    box-shadow: 0px 0px 0px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: trabsform 0.2s ease;
+}
+
+nav li a:hover {
+    transform: scale(1.1);
+}
+
+.background-pic-container {
+    background-image: url('Images/PosterPic.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    font-family: papyrus;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.about-container,
+.acommodation-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.about-container-header,
+.acommodation-container-header {
+    font-size: 30px;
+    font-family: papyrus;
+    margin-bottom: 50px;
+}
+
+.logo-img {
+    width: 30%;
+}
+
+.about-container-content,
+.acommodation-container-content,
+.travel-container-content {
+    display: flex;
+}
+
+.about-description,
+.about-history {
+    flex: 1;
+    margin: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+.about-description-header,
+.about-history-header {
+   text-align: center;
+}
+
+.activities-container {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.activities-container-header,
+.travel-container-header {
+    font-size: 30px;
+    font-family: papyrus;
+}
+
+.activity1-container,
+.activity2-container,
+.activity3-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity1-text-content,
+.activity2-text-content,
+.activity3-text-content {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.activity1-header,
+.activity2-header,
+.activity3-header {
+    font-family: papyrus;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity1-description,
+.activity2-description,
+.activity3-description {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.activity1-image,
+.activity3-image {
+    border-radius: 10px;
+    flex: 1;
+    text-align: right;
+    max-width: 20%;
+    height: auto;
+    margin-left: 10%;
+    box-shadow: 5px 5px 5px;
+    transition: transform 0.75s ease;
+    z-index: 0;
+}
+
+.activity2-image {
+    border-radius: 10px;
+    flex: 1;
+    text-align: left;
+    width: 20%;
+    max-width: 20%;
+    height: auto;
+    margin-right: 10%;
+    box-shadow: 5px 5px 5px;
+    transition: transform 0.75s ease;
+    z-index: 0;
+}
+
+.activity1-image:hover,
+.activity2-image:hover,
+.activity3-image:hover {
+    transform: scale(1.1);
+}
+
+.nature-rule {
+    width: 40%;
+    height: 6px;
+    background: linear-gradient(to right, #826363, #92b6a6, #826363); /* Customize the gradient colors to depict nature */
+    margin: 30px auto; /* Adjust the margin as needed */
+}
+
+.acommidation-container-description {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    margin: auto;
+    width: 30%;
+}
+
+.acommodation-div-header {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: papyrus
+}
+
+.acommodation-hotels,
+.acommodation-campsites,
+.acommodation-rentals {
+    flex: 1;
+    /* margin: 60px; */
+    padding: 60px;
+    justify-content: center;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+.acommodation-list li{
+    margin-top: 20px;
+    padding: 0;
+}
+
+.acommodation-link {
+    color: #3366cc; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.acommodation-link:hover {
+    color: #ff6600;
+    transform: scale(1.3);
+}
+
+.acommodation-link:visited {
+    color: #800080;
+}
+
+.acommodation-link:active {
+    color: #cc0000;
+}
+
+.travel-container {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.travel1-container,
+.travel2-container {
+    justify-content: center;
+    margin: 60px auto;
+    width: 30%;
+
+}
+
+.travel1-text-content {
+    margin-bottom: 50px;
+
+}
+
+.travel2-text-content {
+    margin-top: 50px;
+}
+
+.travel1-description,
+.travel2-description {
+
+}
+
+.travel1-image {
+    width: 80%;
+}
+
+.travel2-image {
+    width: 60%;
+}
