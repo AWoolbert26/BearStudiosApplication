@@ -48,7 +48,7 @@ nav li a:hover {
     background-size: cover;
     background-position: center center;
     text-align: center;
-    font-family: papyrus;
+    font-family: Papyrus;
     font-size: 30px;
     color: rgb(255, 255, 255);
     padding-top: 200px;
@@ -66,7 +66,7 @@ nav li a:hover {
 .about-container-header,
 .acommodation-container-header {
     font-size: 30px;
-    font-family: papyrus;
+    font-family: copperplate;
     margin-bottom: 50px;
 }
 
@@ -105,7 +105,7 @@ nav li a:hover {
 .activities-container-header,
 .travel-container-header {
     font-size: 30px;
-    font-family: papyrus;
+    font-family: copperplate;
 }
 
 .activity1-container,
@@ -129,7 +129,7 @@ nav li a:hover {
 .activity1-header,
 .activity2-header,
 .activity3-header {
-    font-family: papyrus;
+    font-family: copperplate;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -174,7 +174,9 @@ nav li a:hover {
 
 .activity1-image:hover,
 .activity2-image:hover,
-.activity3-image:hover {
+.activity3-image:hover,
+.travel1-image:hover,
+.travel2-image:hover {
     transform: scale(1.1);
 }
 
@@ -196,14 +198,13 @@ nav li a:hover {
 .acommodation-div-header {
     margin-bottom: 50px;
     font-size: 25px;
-    font-family: papyrus
+    font-family: copperplate
 }
 
 .acommodation-hotels,
 .acommodation-campsites,
 .acommodation-rentals {
     flex: 1;
-    /* margin: 60px; */
     padding: 60px;
     justify-content: center;
     box-sizing: border-box;
@@ -245,7 +246,7 @@ nav li a:hover {
 .travel1-container,
 .travel2-container {
     justify-content: center;
-    margin: 60px auto;
+    margin: 100px auto;
     width: 30%;
 
 }
@@ -261,13 +262,19 @@ nav li a:hover {
 
 .travel1-description,
 .travel2-description {
-
+    line-height: 25px;
 }
 
 .travel1-image {
     width: 80%;
+    box-shadow: 5px 5px 5px;
+    transition: transform 0.75s ease;
+    z-index: 0;
 }
 
 .travel2-image {
     width: 60%;
+    box-shadow: 5px 5px 5px;
+    transition: transform 0.75s ease;
+    z-index: 0;
 }
