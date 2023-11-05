@@ -220,20 +220,19 @@ nav li a:hover {
 .acommodation-link {
     color: #3366cc; 
     text-decoration: none; 
-    transition: color 0.3s; 
+    transition: all 0.3s; 
 }
 
 .acommodation-link:hover {
     color: #ff6600;
-    transform: scale(1.3);
 }
 
 .acommodation-link:visited {
     color: #800080;
 }
 
-.acommodation-link:active {
-    color: #cc0000;
+.acommodation-link:visited:hover {
+    color: #ff6600;
 }
 
 .travel-container {
@@ -321,4 +320,43 @@ nav li a:hover {
 
 .travel-tip:hover .travel-tip-description {
     opacity: 1;
+}
+
+.site-end-container {
+    background-color: #0e122b;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.site-end-container h1 {
+    align-self: center;
+}
+
+.site-end-sites {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-end-sites a {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #3366cc; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.site-end-sites a:hover {
+    color: #ff6600;
+}
+
+.site-end-sites a:visited {
+    color: #800080;
+}
+
+.site-end-sites a:visited:hover {
+    color: #ff6600;
 }
